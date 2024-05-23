@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
         android:gravity="center"
@@ -78,14 +78,14 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="20dp"
-            android:src="@drawable/google"
+            android:src="@drawable/google_icon"
             android:contentDescription="TODO"
             tools:ignore="ContentDescription" />
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="20dp"
-            android:src="@drawable/facebook"
+            android:src="@drawable/facebook_icon"
             android:contentDescription="@string/todo" />
     </LinearLayout>
 </RelativeLayout>
